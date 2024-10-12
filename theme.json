@@ -58,6 +58,15 @@
           "gradient": "linear-gradient(90deg, rgba(11,255,201,1) 0%, rgba(9,121,106,1) 53%, rgba(0,212,255,1) 100%)",
           "name": "Mint"
         }
+      ],
+      "defaultDuotone": true,
+      "customDuotone": true,
+      "duotone": [
+        {
+          "slug": "duotone-lightblue",
+          "colors": ["#2e86de", "#00a651"],
+          "name": "amar Blue"
+        } 
       ]
     },
     "blocks": {
@@ -72,6 +81,13 @@
           "defaultGradients": true,
           "customGradient": false,
           "gradients": []
+        }
+      },
+      "core/cover": {
+        "color": {
+          "defaultDuotone": true,
+          "customDuotone": false,
+          "duotone": []
         }
       }
     }
