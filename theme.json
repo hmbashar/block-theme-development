@@ -7,6 +7,41 @@
       "contentSize": "620px",
       "wideSize": "720px"
     },
+    "typography": {     
+      "fontSizes": [
+        {
+          "slug": "XS-small",
+          "size": "12px",
+          "name": "XS Small"
+        },
+        {
+          "slug": "medium",
+          "size": "14px",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "16px",
+          "name": "Large"
+        },
+        {
+          "slug": "XL-large",
+          "size": "18px",
+          "name": "XL Large"
+        },
+        {
+          "slug": "XX-large",
+          "size": "20px",
+          "name": "XX Large"
+        },
+        {
+          "slug": "XXX-large",
+          "size": "22px",
+          "name": "XXX Large"
+        }
+      ],
+      "customFontSize": true
+    },
     "color": {
       "defaultPalette": true,
       "custom": true,
