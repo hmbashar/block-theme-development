@@ -8,6 +8,12 @@
       "wideSize": "720px"
     },
     "typography": {
+        "letterSpacing": true,
+        "fontStyle": true,
+        "textTransform": true,
+        "lineHeight": true,
+        "textDecoration": true,
+        "fontWeight": true,
       "fontSizes": [
         {
           "slug": "XS-small",
