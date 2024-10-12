@@ -1,0 +1,71 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+    "settings": {
+		"appearanceTools": true,
+        "layout": {
+            "contentSize": "620px",
+            "wideSize": "720px"
+        }
+    },
+    "styles": {
+        "color": {
+          "background": "#d5d6d7",
+          "text": "#1a1a1a"  
+        },
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"lineHeight": "1.55"
+		},
+        "elements": {
+            "heading": {
+                "fontFamily": "var(--wp--preset--font-family--heading)",
+                "fontSize": "var(--wp--preset--font-size--large)",
+                "fontStyle": "normal",
+                "fontWeight": "600",
+                "lineHeight": "1.5"
+            },
+            "link": {
+               ":hover": {
+                    "color": "var(--wp--preset--color--primary)",
+                    "textDecoration": "none"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--heading)",
+                    "fontStyle": "normal",
+                    "fontWeight": "600",
+                    "lineHeight": "1.5"
+                },
+                "color": "#06c"
+            },
+            "button": {
+                "fontFamily": "var(--wp--preset--font-family--heading)",
+                "fontStyle": "normal",
+                "fontWeight": "600",
+                "lineHeight": "1.5",
+                "border": {
+                    "width": "1px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--primary)"
+                }
+            }
+        }
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "area": "header",
+            "title": "My Header"
+        },
+        {
+            "name": "footer",
+            "area": "footer",
+            "title": "My Footer"
+        }
+    ]
+	
+
+}
