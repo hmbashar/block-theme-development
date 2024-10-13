@@ -233,8 +233,8 @@
       }
     },
     "color": {
-      "background": "#d5d6d7",
-      "text": "#1a1a1a"
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--sky-blue)"
     },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--body)",
@@ -253,7 +253,7 @@
       },
       "link": {
         ":hover": {
-          "color": "var(--wp--preset--color--primary)",
+          "color": "var(--wp--preset--color--purple)",
           "textDecoration": "none"
         },
         "typography": {
