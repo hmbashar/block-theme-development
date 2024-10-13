@@ -7,6 +7,39 @@
       "contentSize": "620px",
       "wideSize": "720px"
     },
+    "spacing": {
+      "padding": true,
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "vh",
+        "vw",
+        "%"
+      ],
+      "margin": true,
+      "blockGap": true,
+      "spacingSizes": [
+        {
+          "slug": "supersmall",
+          "size": "10px",
+          "name": "Super Small"
+        },
+        {
+          "slug": "medium",
+          "size": "20px",
+          "name": "Medium"
+        },
+        {
+          "slug": "h-space",
+          "size": "50px",
+          "name": "Huge Space"
+        }
+      ]
+    },
+    "dimensions": {
+      "minHeight": true      
+    },
     "typography": {
       "letterSpacing": true,
       "fontStyle": true,
@@ -169,6 +202,16 @@
           "customDuotone": false,
           "duotone": []
         }
+      },
+      "core/search": {
+        "spacing": {
+          "padding": true,
+          "margin": true,
+          "blockGap": true
+        },
+        "dimensions": {
+          "minHeight": true
+        }
       }
     }
   },
@@ -177,6 +220,16 @@
     "blocks": {
       "core/column": {
         "css": "box-shadow: 0 0 5px #aaa; & .wp-block-search__input {box-shadow: 0 0 5px #aaa;}"
+      },
+      "core/search": {
+        "spacing": {
+         "margin": {
+           "top": "10px",
+           "bottom": "10px",
+           "left": "10px",
+           "right": "10px"
+         }
+        }
       }
     },
     "color": {
