@@ -7,6 +7,7 @@
       "contentSize": "620px",
       "wideSize": "720px"
     },
+    "useRootPaddingAwareAlignments": true,
     "spacing": {
       "padding": true,
       "units": [
@@ -235,6 +236,12 @@
     "color": {
       "background": "var(--wp--preset--color--background)",
       "text": "var(--wp--preset--color--sky-blue)"
+    },
+    "spacing": {
+      "padding": {
+        "left": "20px",
+        "right": "20px"
+      }      
     },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--body)",
