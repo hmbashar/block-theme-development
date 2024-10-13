@@ -8,12 +8,12 @@
       "wideSize": "720px"
     },
     "typography": {
-        "letterSpacing": true,
-        "fontStyle": true,
-        "textTransform": true,
-        "lineHeight": true,
-        "textDecoration": true,
-        "fontWeight": true,
+      "letterSpacing": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "lineHeight": true,
+      "textDecoration": true,
+      "fontWeight": true,
       "fontSizes": [
         {
           "slug": "XS-small",
@@ -173,6 +173,12 @@
     }
   },
   "styles": {
+    "css": " .main-title {font-size: 40px;}",
+    "blocks": {
+      "core/column": {
+        "css": "box-shadow: 0 0 5px #aaa; & .wp-block-search__input {box-shadow: 0 0 5px #aaa;}"
+      }
+    },
     "color": {
       "background": "#d5d6d7",
       "text": "#1a1a1a"
