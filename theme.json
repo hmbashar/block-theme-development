@@ -294,6 +294,11 @@
       "name": "footer",
       "area": "footer",
       "title": "My Footer"
+    },
+    {
+      "name": "sidebar",
+      "area": "uncategorized",
+      "title": "My Sidebar"
     }
   ],
   "customTemplates": [
