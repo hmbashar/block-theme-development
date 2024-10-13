@@ -295,5 +295,14 @@
       "area": "footer",
       "title": "My Footer"
     }
+  ],
+  "customTemplates": [
+    {
+      "name": "amar-template",
+      "title": "My Custom Template",
+      "postTypes": [
+        "post", "page"
+      ]
+    }
   ]
 }
